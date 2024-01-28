@@ -4,6 +4,9 @@ The official **LEAKED** Lyno bot code
 # What is lyno?
 Lyno is a discord **Nuke** Bot and here its his code 
 
+# Not sure
+I am not sure lyno used chatgpt so please read through yourselfs and tell me what you think
+
 # Is lyno a skid?
 Lyno is not a skid, **__BUT__** his code is chatgpt
 
