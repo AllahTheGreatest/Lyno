@@ -1,3 +1,5 @@
+# The official Lyno Bot source code
+
 #Lyno Raid Bot Source
 import asyncio
 import random
@@ -34,7 +36,7 @@ SPECIAL_USERS = [1169441226030850133, 1]
 session = requests.Session()
 message = f"https://dsc.gg/lyno Hola !"
 events = ["dsc.gg/lyno"]
-token = "MTE4OTE4NzI4NTE3NDk5NzAwMg.GVEPyt.0p2x53ITok_gzBss1muPPhZsBKwW1g4-5ne3a8"
+token = ""
 prefix = "."
 stats = "Security V2 | Lyno Mod"
 chan = "r̴a̴i̴d̴ ̴b̴y̴ ̴l̴y̴n̴o̴"
